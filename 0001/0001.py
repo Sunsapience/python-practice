@@ -2,7 +2,6 @@
 """
 Created on Tue Nov 28 20:12:49 2017
 
-@author: wlgzg
 """
 
 import random
@@ -20,4 +19,4 @@ def generate_code(count, length):
 
 if __name__ == '__main__':
 
-    generate_code(20, 5)
+    generate_code(200, 20)
