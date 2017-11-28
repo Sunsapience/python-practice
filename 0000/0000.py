@@ -15,7 +15,7 @@ def img_addnum(img_name, num):
     fnt = ImageFont.truetype('arial.ttf', int(h * 0.15))
 
     
-    draw.text((w * 0.91 , h * 0.01), num, font=fnt, fill=(255, 0, 0, 128))
+    draw.text((w * 0.91 , h * 0.01), num, font=fnt, fill='red')
     im.save(img_name.split('.')[0] + '2.jpg')
 
 if __name__ == '__main__':
