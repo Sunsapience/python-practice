@@ -2,7 +2,6 @@
 """
 Created on Tue Nov 28 20:12:49 2017
 
-@author: wlgzg
 """
 
 import random
